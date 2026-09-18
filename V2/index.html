@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-company">
+        <h2 class="header-company-logo"></h2> <!--Logo da Empresa-->
+        <h1 class="header-company-title">Empresa</h1>
+      </div>
+      <nav class="nav">
+        <ul class="nav-ul">
+            <li class="nav-ul-li"><a class="nav-ul-li-a" href="#">Ínicio</a></li>
+            <li class="nav-ul-li"><a class="nav-ul-li-a" href="#">Sobre</a></li>
+            <li class="nav-ul-li"><a class="nav-ul-li-a" href="#">Preços</a></li>
+            <li class="nav-ul-li"><a class="nav-ul-li-a" href="#">Contato</a></li>
+            <li class="nav-ul-li"><a class="nav-ul-li-a" href="#">Entrar</a></li>
+            <li class="nav-ul-li"><a class="nav-ul-li-a" id="cadastrar" href="index.html">Cadastrar</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+        <div class="main-left">
+            <div class="main-left-container">
+                <div class="main-left-container-left">
+                    <h3 class="left-image"></h3> <!-- Simbolo de uma pessoa, com um fundo azul ( Quadrado ) -->
+                    <h3 class="left-title">Junte-se a nós</h3>
+                    <p class="left-paragraph">Crie sua conta em menos de um minuto e comece a usar a plataforma.</p>
+                </div>
+            </div>
+        </div>
+        <div class="main-right">
+            <form class="main-form" action="">
+                <div class="main-form-title">
+                    <legend class="main-form-title-legend">Criar conta</legend>
+                    <h3 class="main-form-title-h3">Preencha os dados para se cadastrar</h3>
+                </div>
+                <fieldset class="main-form-fieldset">
+                    <div class="main-form-fieldset-card">
+                        <label class="form-label" for="">Nome completo</label>
+                        <input class="form-input" type="text" placeholder="Nome completo...">
+                    </div>
+                    <div class="main-form-fieldset-card">
+                        <label class="form-label" for="">E-mail</label>
+                        <input class="form-input" type="email" placeholder="Email...">
+                    </div>
+                    <div class="main-form-fieldset-card">
+                        <label class="form-label" for="">Senha</label>
+                        <input class="form-input" type="password" placeholder="Senha...">
+                    </div>
+                    <div class="main-form-fieldset-card">
+                        <label class="form-label" for="">Confirmar</label>
+                        <input class="form-input" type="password" placeholder="Confirme a senha...">
+                    </div>
+                    <div class="main-form-fieldset-card">
+                        <label class="form-label" for="">Data de nascimento</label>
+                        <input class="form-input" type="date">
+                    </div>
+                </fieldset>
+                <div class="main-form-footer">
+                    <input class="form-input-submit" type="submit" value="Cadastrar">
+                    <h3 class="form-login">Já tem conta? <a href="#">Entrar</a></h3>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
