@@ -74,7 +74,7 @@
 
 .main {
     width: 100%;
-    height: 731px;
+    height: calc(100vh - 100px);
     display: flex;
     flex-direction: row;
 }
